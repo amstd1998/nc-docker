@@ -1,3 +1,4 @@
+FROM alphine
 docker run -d \
   --name=nextcloud \
   -e PUID=1000 \
